@@ -17,6 +17,25 @@ Permite gerenciamento de jogadores, jogos, registro de gols e ranking automátic
 
 ---
 
+## 📷 Preview do Sistema
+
+### 🔐 Tela de Login
+![Login](screenshots/login.png)
+
+### 📊 Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### 👤 Jogadores
+![Jogadores](screenshots/jogadores.png)
+
+### 🏟️ Jogos
+![Jogos](screenshots/jogos.png)
+
+### 🏆 Ranking
+![Ranking](screenshots/ranking.png)
+
+---
+
 ## 🛠️ Tecnologias Utilizadas
 
 - PHP
