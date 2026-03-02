@@ -12,7 +12,7 @@ $erro = isset($_GET['erro']) ? true : false;
 
   <div class="login-card">
     <h1>Bem-vindo </h1>
-    <p>Entre para acessar o sistema de gestão esportivo.</p>
+    <p>Entre para acessar o sistema de gestão esportivo</p>
 
     <form action="/projeto-futebol/auten/verifica_login.php" method="POST">
       <label>Usuário</label>
@@ -24,7 +24,7 @@ $erro = isset($_GET['erro']) ? true : false;
       <button type="submit">Entrar</button>
 
       <?php if($erro){ ?>
-        <div class="erro">Usuário ou senha inválidos.</div>
+        <div class="erro">Usuário ou senha inválidos</div>
       <?php } ?>
     </form>
   </div>

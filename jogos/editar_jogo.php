@@ -10,7 +10,7 @@ if(!isset($_GET['id'])){
 
 $id = (int) $_GET['id'];
 
-// Buscar jogo
+//Buscar jogo
 $sql = "SELECT * FROM jogos WHERE id = $id";
 $res = $conexao->query($sql);
 $jogo = $res->fetch_assoc();
@@ -20,7 +20,7 @@ if(!$jogo){
     exit();
 }
 
-// Atualizar
+//Atualizar
 if(isset($_POST['adversario'])){
     $adversario = $_POST['adversario'];
     $data_jogo = $_POST['data_jogo'];

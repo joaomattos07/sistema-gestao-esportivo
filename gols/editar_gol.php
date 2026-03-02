@@ -10,7 +10,7 @@ if(!isset($_GET['id'])){
 
 $id = (int) $_GET['id'];
 
-// busca o gol atual
+//Busca o gol atual
 $res = $conexao->query("SELECT * FROM gols WHERE id = $id");
 $gol = $res->fetch_assoc();
 if(!$gol){
@@ -18,11 +18,11 @@ if(!$gol){
     exit();
 }
 
-// listas para selects
+//Listas para selects
 $jogadores = $conexao->query("SELECT id, nome FROM jogadores WHERE status='ativo' ORDER BY nome ASC");
 $jogos = $conexao->query("SELECT id, adversario, data_jogo FROM jogos ORDER BY data_jogo DESC");
 
-// atualizar
+//Atualizar
 if(isset($_POST['jogador_id'])){
     $jogador_id = (int) $_POST['jogador_id'];
     $jogo_id = (int) $_POST['jogo_id'];

@@ -6,11 +6,11 @@ include("../config/conexao.php");
 if(isset($_POST['adversario'])){
 
     $adversario = $_POST['adversario'];
-    $data_jogo = $_POST['data_jogo']; // ✅ nome certo da coluna
+    $data_jogo = $_POST['data_jogo']; // nome certo da coluna
     $local = $_POST['local'];
 
-    $placar_time = $_POST['placar_time']; // ✅ pega do POST
-    $placar_adversario = $_POST['placar_adversario']; // ✅ pega do POST
+    $placar_time = $_POST['placar_time']; // pega do POST
+    $placar_adversario = $_POST['placar_adversario']; // pega do POST
 
     $sql = "INSERT INTO jogos (adversario, data_jogo, local, placar_time, placar_adversario)
             VALUES ('$adversario', '$data_jogo', '$local', '$placar_time', '$placar_adversario')";

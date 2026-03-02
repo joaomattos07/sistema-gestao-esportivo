@@ -3,10 +3,10 @@ include("../auten/proteger.php");
 include("../config/conexao.php");
 
 
-// Buscar jogadores
+//Buscar jogadores
 $jogadores = $conexao->query("SELECT * FROM jogadores WHERE status='ativo'");
 
-// Buscar jogos
+//Buscar jogos
 $jogos = $conexao->query("SELECT * FROM jogos");
 
 if(isset($_POST['jogador_id'])){
