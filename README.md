@@ -1,4 +1,4 @@
-# ⚽ Sistema de Gestão Esportivo
+# Sistema de Gestão Esportivo
 
 Sistema web completo para gestão esportiva desenvolvido com **PHP, MySQL, HTML e CSS**.
 
@@ -6,48 +6,48 @@ Permite gerenciamento de jogadores, jogos, registro de gols e ranking automátic
 
 ---
 
-## 🚀 Funcionalidades
+## Funcionalidades
 
-- 🔐 Sistema de Login com controle de sessão
-- 👤 CRUD completo de Jogadores
-- 🏟️ CRUD completo de Jogos
-- ⚽ Registro, edição e exclusão de gols
-- 🏆 Ranking automático de artilharia (usando JOIN e SUM no MySQL)
-- 📊 Dashboard com estatísticas gerais
+- Sistema de Login com controle de sessão
+- CRUD completo de Jogadores
+- CRUD completo de Jogos
+- Registro, edição e exclusão de gols
+- Ranking automático de artilharia (usando JOIN e SUM no MySQL)
+- Dashboard com estatísticas gerais
 
 ---
 
-## 📷 Preview do Sistema
+## Preview do Sistema
 
-### 🔐 Tela de Login
+### Tela de Login
 ![Login](screenshots/login.png)
 
-### 📊 Dashboard
+### Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
-### 👤 Jogadores
+### Jogadores
 ![Jogadores](screenshots/jogadores.png)
 
-### 🏟️ Jogos
+### Jogos
 ![Jogos](screenshots/jogos.png)
 
-### 🏆 Ranking
+### Ranking
 ![Ranking](screenshots/ranking.png)
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - PHP
 - MySQL
 - HTML
 - CSS
-- XAMPP (ambiente local)
+- XAMPP 
 - Git & GitHub
 
 ---
 
-## 🧠 Conceitos Aplicados
+## Conceitos Aplicados
 
 - Estruturação de projeto em pastas (auth, config, módulos)
 - Controle de sessão
@@ -58,7 +58,7 @@ Permite gerenciamento de jogadores, jogos, registro de gols e ranking automátic
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 projeto-futebol/
 │
@@ -74,7 +74,7 @@ projeto-futebol/
 
 ---
 
-## ▶️ Como Executar o Projeto
+## Como Executar o Projeto
 
 1. Instalar o XAMPP
 2. Clonar o repositório
@@ -89,12 +89,12 @@ http://localhost/projeto-futebol
 
 ---
 
-## 📌 Observações
+## Observações
 
 Projeto desenvolvido com foco em aprendizado prático de desenvolvimento backend com PHP e organização modular de sistemas web.
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 João Pedro de Mattos Patricio.
